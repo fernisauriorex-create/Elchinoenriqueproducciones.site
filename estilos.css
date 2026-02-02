@@ -1,0 +1,39 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #000;
+  color: #fff;
+  padding: 20px;
+}
+
+.contrato {
+  background: #111;
+  border: 1px solid #444;
+  padding: 15px;
+  height: 300px;
+  overflow-y: scroll;
+  margin-bottom: 15px;
+}
+
+.aceptacion {
+  margin-bottom: 15px;
+}
+
+button {
+  padding: 12px 20px;
+  background: #ff9ecb;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:disabled {
+  background: #555;
+  cursor: not-allowed;
+}
+
+.nota {
+  font-size: 12px;
+  color: #ccc;
+  margin-top: 10px;
+}

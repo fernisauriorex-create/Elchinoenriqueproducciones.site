@@ -1,0 +1,141 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Variables: orden y coherencia */
+:root {
+    --color-principal: #111;
+    --color-secundario: #666;
+    --color-acento: #ff8c00;
+    --color-fondo: #fafafa;
+    --color-blanco: #ffffff;
+    --borde-suave: 1px solid #e0e0e0;
+}
+
+/* Tipografía y base */
+body {
+    font-family: "BBH Bogle", system-ui, sans-serif;
+    background-color: var(--color-fondo);
+    color: var(--color-principal);
+    line-height: 1.6;
+    padding: 40px 20px;
+    max-width: 1100px;
+    margin: auto;
+}
+
+/* Menú */
+.material-symbols-outlined {
+    font-size: 28px;
+    color: var(--color-principal);
+}
+
+.material-symbols-outlined a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Títulos */
+h1 {
+    font-size: 2.2rem;
+    margin-bottom: 20px;
+    letter-spacing: -0.5px;
+}
+
+h2 {
+    font-size: 1.3rem;
+    font-weight: 400;
+    color: var(--color-secundario);
+    margin: 20px 0;
+}
+
+/* Imagen principal */
+img {
+    width: 100%;
+    max-width: 500px;
+    display: block;
+    margin: 30px auto;
+    border-radius: 6px;
+}
+
+/* Texto */
+p {
+    margin: 15px 0;
+    color: var(--color-secundario);
+}
+
+/* Lista */
+ul {
+    margin: 15px 0 25px 20px;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+/* Enlaces */
+a {
+    color: var(--color-acento);
+    text-decoration: none;
+    font-weight: 500;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Formulario */
+form {
+    margin-top: 50px;
+    padding: 30px;
+    background-color: var(--color-blanco);
+    border: var(--borde-suave);
+    border-radius: 8px;
+    max-width: 500px;
+}
+
+/* Inputs */
+.nombre {
+    width: 100%;
+    padding: 12px 14px;
+    margin-bottom: 15px;
+    border: var(--borde-suave);
+    border-radius: 6px;
+    font-size: 0.95rem;
+    font-family: inherit;
+}
+
+.nombre:focus {
+    outline: none;
+    border-color: var(--color-acento);
+}
+
+/* Botón */
+.boton {
+    width: 100%;
+    padding: 12px;
+    background-color: var(--color-principal);
+    color: var(--color-blanco);
+    border: none;
+    border-radius: 6px;
+    font-size: 0.95rem;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.boton:hover {
+    background-color: #000;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+    body {
+        padding: 25px 15px;
+    }
+
+    h1 {
+        font-size: 1.8rem;
+    }
+}
