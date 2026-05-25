@@ -7,9 +7,9 @@
 
 /* Variables: orden y coherencia */
 :root {
-    --color-principal: #111;
-    --color-secundario: #666;
-    --color-acento: #ff8c00;
+    --color-principal: #000;
+    --color-secundario: #fffcfc;
+    --color-acento: #3f96fc;
     --color-fondo: #fafafa;
     --color-blanco: #ffffff;
     --borde-suave: 1px solid #e0e0e0;
@@ -29,7 +29,7 @@ body {
 /* Menú */
 .material-symbols-outlined {
     font-size: 28px;
-    color: var(--color-principal);
+    color: var(--color-secundario);
 }
 
 .material-symbols-outlined a {
@@ -126,7 +126,7 @@ form {
 }
 
 .boton:hover {
-    background-color: #000;
+    background-color: #fff;
 }
 
 /* Responsive */
