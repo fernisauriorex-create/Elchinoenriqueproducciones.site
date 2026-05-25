@@ -10,7 +10,7 @@
     --color-principal: #000;
     --color-secundario: #fffcfc;
     --color-acento: #3f96fc;
-    --color-fondo: #fafafa;
+    --color-fondo: #000000;
     --color-blanco: #ffffff;
     --borde-suave: 1px solid #e0e0e0;
 }
@@ -73,6 +73,7 @@ ul {
 
 li {
     margin-bottom: 8px;
+    color: var(--color-secundario);
 }
 
 /* Enlaces */
