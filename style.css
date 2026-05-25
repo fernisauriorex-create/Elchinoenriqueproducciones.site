@@ -41,8 +41,8 @@ body {
 h1 {
     font-size: 2.2rem;
     margin-bottom: 20px;
-    letter-spacing: -0.5px;
     color: var(--color-secundario);
+    letter-spacing: -0.5px;
 }
 
 h2 {
